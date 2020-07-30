@@ -29,22 +29,22 @@ import java.util.Random;
 
 @ElementsTheFold.ModElement.Tag
 public class BlockDreocium extends ElementsTheFold.ModElement {
-	@GameRegistry.ObjectHolder("thefold:dreocium")
+	@GameRegistry.ObjectHolder("thefold:dastalt")
 	public static final Block block = null;
 	public BlockDreocium(ElementsTheFold instance) {
-		super(instance, 3);
+		super(instance, 8);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("dreocium"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("dastalt"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("thefold:dreocium", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("thefold:dastalt", "inventory"));
 	}
 
 	@Override
@@ -72,7 +72,7 @@ public class BlockDreocium extends ElementsTheFold.ModElement {
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
 			super(Material.ROCK);
-			setUnlocalizedName("dreocium");
+			setUnlocalizedName("dastalt");
 			setSoundType(SoundType.STONE);
 			setHarvestLevel("pickaxe", 6);
 			setHardness(50F);

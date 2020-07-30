@@ -37,7 +37,7 @@ public class BlockTar extends ElementsTheFold.ModElement {
 	public static final Item item = null;
 	private Fluid fluid;
 	public BlockTar(ElementsTheFold instance) {
-		super(instance, 17);
+		super(instance, 14);
 		fluid = new Fluid("tar", new ResourceLocation("thefold:blocks/arstill"), new ResourceLocation("thefold:blocks/ar")).setLuminosity(0)
 				.setDensity(3000).setViscosity(4000).setGaseous(false);
 	}

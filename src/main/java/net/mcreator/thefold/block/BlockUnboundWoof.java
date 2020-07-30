@@ -28,7 +28,7 @@ public class BlockUnboundWoof extends ElementsTheFold.ModElement {
 	@GameRegistry.ObjectHolder("thefold:unboundwoof")
 	public static final Block block = null;
 	public BlockUnboundWoof(ElementsTheFold instance) {
-		super(instance, 10);
+		super(instance, 4);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class BiomeFoldlands extends ElementsTheFold.ModElement {
 	@GameRegistry.ObjectHolder("thefold:foldlands")
 	public static final BiomeGenCustom biome = null;
 	public BiomeFoldlands(ElementsTheFold instance) {
-		super(instance, 8);
+		super(instance, 19);
 	}
 
 	@Override

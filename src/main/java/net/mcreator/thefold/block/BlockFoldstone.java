@@ -22,7 +22,7 @@ public class BlockFoldstone extends ElementsTheFold.ModElement {
 	@GameRegistry.ObjectHolder("thefold:foldstone")
 	public static final Block block = null;
 	public BlockFoldstone(ElementsTheFold instance) {
-		super(instance, 9);
+		super(instance, 7);
 	}
 
 	@Override

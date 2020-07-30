@@ -28,7 +28,7 @@ public class BlockUnboundLeaves extends ElementsTheFold.ModElement {
 	@GameRegistry.ObjectHolder("thefold:unboundleaves")
 	public static final Block block = null;
 	public BlockUnboundLeaves(ElementsTheFold instance) {
-		super(instance, 12);
+		super(instance, 6);
 	}
 
 	@Override

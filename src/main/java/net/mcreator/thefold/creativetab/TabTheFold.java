@@ -13,7 +13,7 @@ import net.mcreator.thefold.ElementsTheFold;
 @ElementsTheFold.ModElement.Tag
 public class TabTheFold extends ElementsTheFold.ModElement {
 	public TabTheFold(ElementsTheFold instance) {
-		super(instance, 4);
+		super(instance, 16);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class BlockFoldGrass extends ElementsTheFold.ModElement {
 	@GameRegistry.ObjectHolder("thefold:foldgrass")
 	public static final Block block = null;
 	public BlockFoldGrass(ElementsTheFold instance) {
-		super(instance, 1);
+		super(instance, 2);
 	}
 
 	@Override

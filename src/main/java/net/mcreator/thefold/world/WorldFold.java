@@ -85,7 +85,7 @@ public class WorldFold extends ElementsTheFold.ModElement {
 	public static final BlockCustomPortal portal = null;
 	public static DimensionType dtype;
 	public WorldFold(ElementsTheFold instance) {
-		super(instance, 2);
+		super(instance, 13);
 	}
 
 	@Override

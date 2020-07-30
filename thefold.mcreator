@@ -14,7 +14,7 @@
     {
       "name": "FoldGrass",
       "type": "block",
-      "sortid": 1,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -22,7 +22,7 @@
     {
       "name": "Nebrese",
       "type": "fluid",
-      "sortid": 2,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -30,15 +30,16 @@
     {
       "name": "Dreocium",
       "type": "block",
-      "sortid": 3,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "dastalt"
     },
     {
       "name": "TheFold",
       "type": "tab",
-      "sortid": 4,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -46,7 +47,7 @@
     {
       "name": "DastaltIngot",
       "type": "item",
-      "sortid": 5,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -54,7 +55,7 @@
     {
       "name": "Ingot",
       "type": "recipe",
-      "sortid": 5,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -62,7 +63,7 @@
     {
       "name": "DastaltBlock",
       "type": "block",
-      "sortid": 6,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -70,7 +71,7 @@
     {
       "name": "DastaltBCraft",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -78,7 +79,7 @@
     {
       "name": "Fold",
       "type": "dimension",
-      "sortid": 2,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -88,7 +89,7 @@
     {
       "name": "Foldlands",
       "type": "biome",
-      "sortid": 8,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -96,7 +97,7 @@
     {
       "name": "Foldstone",
       "type": "block",
-      "sortid": 9,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -104,7 +105,7 @@
     {
       "name": "UnboundWoof",
       "type": "block",
-      "sortid": 10,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -112,7 +113,7 @@
     {
       "name": "UnboundPlank",
       "type": "block",
-      "sortid": 11,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -120,7 +121,7 @@
     {
       "name": "UnboundLeaves",
       "type": "block",
-      "sortid": 12,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -128,7 +129,7 @@
     {
       "name": "Wood",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -136,7 +137,7 @@
     {
       "name": "DurtToGrass",
       "type": "procedure",
-      "sortid": 14,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -164,7 +165,7 @@
     {
       "name": "Grass",
       "type": "block",
-      "sortid": 15,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -172,7 +173,7 @@
     {
       "name": "EntityEntersTar",
       "type": "procedure",
-      "sortid": 16,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -188,7 +189,7 @@
     {
       "name": "Tar",
       "type": "fluid",
-      "sortid": 17,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -196,7 +197,7 @@
     {
       "name": "NoskiumOre",
       "type": "block",
-      "sortid": 18,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -204,7 +205,7 @@
     {
       "name": "NoskiumGem",
       "type": "item",
-      "sortid": 19,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -212,7 +213,7 @@
     {
       "name": "NoskiumIngotSmelting",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -232,9 +233,9 @@
       "tile.grass.name": "Grass",
       "tile.noskiumore.name": "Noskium Ore",
       "tile.unboundleaves.name": "Unbound Leaves",
+      "tile.dastalt.name": "Dastalt Ingot",
       "item.fold.name": "Collapsing Relic",
       "tile.dastaltblock.name": "Dastalt Block",
-      "tile.dreocium.name": "Dastalt Ingot",
       "tile.foldstone.name": "Foldstone",
       "tile.folddurt.name": "Fold Dirt",
       "tile.unboundplank.name": "Unbound Plank"

@@ -25,7 +25,7 @@ public class BlockUnboundPlank extends ElementsTheFold.ModElement {
 	@GameRegistry.ObjectHolder("thefold:unboundplank")
 	public static final Block block = null;
 	public BlockUnboundPlank(ElementsTheFold instance) {
-		super(instance, 11);
+		super(instance, 5);
 	}
 
 	@Override

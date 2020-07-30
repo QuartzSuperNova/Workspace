@@ -13,7 +13,7 @@ import net.mcreator.thefold.ElementsTheFold;
 @ElementsTheFold.ModElement.Tag
 public class RecipeIngot extends ElementsTheFold.ModElement {
 	public RecipeIngot(ElementsTheFold instance) {
-		super(instance, 5);
+		super(instance, 17);
 	}
 
 	@Override

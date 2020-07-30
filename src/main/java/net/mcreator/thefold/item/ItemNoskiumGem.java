@@ -20,7 +20,7 @@ public class ItemNoskiumGem extends ElementsTheFold.ModElement {
 	@GameRegistry.ObjectHolder("thefold:noskiumgem")
 	public static final Item block = null;
 	public ItemNoskiumGem(ElementsTheFold instance) {
-		super(instance, 19);
+		super(instance, 12);
 	}
 
 	@Override

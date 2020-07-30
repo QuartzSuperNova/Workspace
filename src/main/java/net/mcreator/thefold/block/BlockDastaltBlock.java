@@ -31,7 +31,7 @@ public class BlockDastaltBlock extends ElementsTheFold.ModElement {
 	@GameRegistry.ObjectHolder("thefold:dastaltblock")
 	public static final Block block = null;
 	public BlockDastaltBlock(ElementsTheFold instance) {
-		super(instance, 6);
+		super(instance, 10);
 	}
 
 	@Override

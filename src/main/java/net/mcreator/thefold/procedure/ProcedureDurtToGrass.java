@@ -10,7 +10,7 @@ import net.mcreator.thefold.ElementsTheFold;
 @ElementsTheFold.ModElement.Tag
 public class ProcedureDurtToGrass extends ElementsTheFold.ModElement {
 	public ProcedureDurtToGrass(ElementsTheFold instance) {
-		super(instance, 14);
+		super(instance, 21);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

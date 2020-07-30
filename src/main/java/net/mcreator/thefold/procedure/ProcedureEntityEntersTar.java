@@ -8,7 +8,7 @@ import net.mcreator.thefold.ElementsTheFold;
 @ElementsTheFold.ModElement.Tag
 public class ProcedureEntityEntersTar extends ElementsTheFold.ModElement {
 	public ProcedureEntityEntersTar(ElementsTheFold instance) {
-		super(instance, 16);
+		super(instance, 22);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

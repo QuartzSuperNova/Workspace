@@ -40,7 +40,7 @@ public class BlockNebrese extends ElementsTheFold.ModElement {
 	public static final Item item = null;
 	private Fluid fluid;
 	public BlockNebrese(ElementsTheFold instance) {
-		super(instance, 2);
+		super(instance, 15);
 		fluid = new Fluid("nebrese", new ResourceLocation("thefold:blocks/foldwaterstill"), new ResourceLocation("thefold:blocks/oldwater"))
 				.setLuminosity(2).setDensity(1000).setViscosity(1250).setGaseous(false);
 	}

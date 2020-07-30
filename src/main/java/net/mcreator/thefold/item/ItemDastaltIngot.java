@@ -24,7 +24,7 @@ public class ItemDastaltIngot extends ElementsTheFold.ModElement {
 	@GameRegistry.ObjectHolder("thefold:dastaltingot")
 	public static final Item block = null;
 	public ItemDastaltIngot(ElementsTheFold instance) {
-		super(instance, 5);
+		super(instance, 9);
 	}
 
 	@Override

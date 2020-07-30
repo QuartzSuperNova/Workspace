@@ -32,7 +32,7 @@ public class BlockNoskiumOre extends ElementsTheFold.ModElement {
 	@GameRegistry.ObjectHolder("thefold:noskiumore")
 	public static final Block block = null;
 	public BlockNoskiumOre(ElementsTheFold instance) {
-		super(instance, 18);
+		super(instance, 11);
 	}
 
 	@Override
