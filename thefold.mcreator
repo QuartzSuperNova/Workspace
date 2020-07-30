@@ -192,6 +192,30 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "NoskiumOre",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NoskiumGem",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NoskiumIngotSmelting",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -203,8 +227,10 @@
       "tile.unboundwoof.name": "Unbound Woof",
       "item.dastaltingot.name": "Dastalt Ingot",
       "itemGroup.tabthefold": "The Fold",
+      "item.noskiumgem.name": "Noskium Gem",
       "fluid.nebrese": "Nebrese",
       "tile.grass.name": "Grass",
+      "tile.noskiumore.name": "Noskium Ore",
       "tile.unboundleaves.name": "Unbound Leaves",
       "item.fold.name": "Collapsing Relic",
       "tile.dastaltblock.name": "Dastalt Block",
