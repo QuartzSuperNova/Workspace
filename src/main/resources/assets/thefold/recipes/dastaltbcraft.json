@@ -1,0 +1,42 @@
+{
+  "group": "thefold",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "thefold:dastaltingot"
+    },
+    "1": {
+      "item": "thefold:dastaltingot"
+    },
+    "2": {
+      "item": "thefold:dastaltingot"
+    },
+    "3": {
+      "item": "thefold:dastaltingot"
+    },
+    "4": {
+      "item": "thefold:dastaltingot"
+    },
+    "5": {
+      "item": "thefold:dastaltingot"
+    },
+    "6": {
+      "item": "thefold:dastaltingot"
+    },
+    "7": {
+      "item": "thefold:dastaltingot"
+    },
+    "8": {
+      "item": "thefold:dastaltingot"
+    }
+  },
+  "result": {
+    "item": "thefold:dastaltblock",
+    "count": 1
+  }
+}

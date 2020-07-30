@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "thefold:fold_portal_ew"
+    },
+    "axis=x": {
+      "model": "thefold:fold_portal_ns"
+    },
+    "inventory": {
+      "model": "thefold:fold_portal_ns"
+    }
+  }
+}

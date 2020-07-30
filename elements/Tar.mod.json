@@ -1,0 +1,22 @@
+{
+  "_fv": 6,
+  "_type": "fluid",
+  "definition": {
+    "name": "Tar",
+    "textureStill": "arstill",
+    "textureFlowing": "ar",
+    "luminosity": 0,
+    "density": 3000,
+    "viscosity": 4000,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:TheFold"
+    },
+    "spawnWorldTypes": [],
+    "onEntityCollides": {
+      "name": "EntityEntersTar"
+    }
+  }
+}

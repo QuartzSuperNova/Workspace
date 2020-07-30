@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thefold:blocks/unboundwood",
+    "up": "thefold:blocks/unboundwood",
+    "north": "thefold:blocks/unboundwoodside",
+    "east": "thefold:blocks/unboundwoodside",
+    "south": "thefold:blocks/unboundwoodside",
+    "west": "thefold:blocks/unboundwoodside",
+    "particle": "thefold:blocks/unboundwood"
+  }
+}

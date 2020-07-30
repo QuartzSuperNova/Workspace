@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "thefold:blocks/unboundleaves",
+    "particle": "thefold:blocks/unboundleaves"
+  }
+}

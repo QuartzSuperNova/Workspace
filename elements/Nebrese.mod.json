@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "fluid",
+  "definition": {
+    "name": "Nebrese",
+    "textureStill": "foldwaterstill",
+    "textureFlowing": "oldwater",
+    "luminosity": 2,
+    "density": 1000,
+    "viscosity": 1250,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "spawnWorldTypes": [
+      "Surface"
+    ]
+  }
+}
