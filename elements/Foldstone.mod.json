@@ -2,7 +2,7 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "stone",
+    "texture": "foldstonetrue",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -22,8 +22,8 @@
     "faceShape": "SOLID",
     "name": "Foldstone",
     "specialInfo": [],
-    "hardness": 10.0,
-    "resistance": 10.0,
+    "hardness": 5.0,
+    "resistance": 5.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:TheFold"
@@ -31,7 +31,7 @@
     "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:FoldedStone"
     },
     "dropAmount": 1,
     "isBeaconBase": false,

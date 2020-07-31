@@ -54,11 +54,11 @@ public class BlockDreocium extends ElementsTheFold.ModElement {
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
-		for (int i = 0; i < 1; i++) {
+		for (int i = 0; i < 4; i++) {
 			int x = chunkX + random.nextInt(16);
-			int y = random.nextInt(10) + 0;
+			int y = random.nextInt(18) + 2;
 			int z = chunkZ + random.nextInt(16);
-			(new WorldGenMinable(block.getDefaultState(), 2, new com.google.common.base.Predicate<IBlockState>() {
+			(new WorldGenMinable(block.getDefaultState(), 4, new com.google.common.base.Predicate<IBlockState>() {
 				public boolean apply(IBlockState blockAt) {
 					boolean blockCriteria = false;
 					IBlockState require;

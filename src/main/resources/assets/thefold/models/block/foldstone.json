@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "thefold:blocks/stone",
-    "particle": "thefold:blocks/stone"
+    "all": "thefold:blocks/foldstonetrue",
+    "particle": "thefold:blocks/foldstonetrue"
   }
 }

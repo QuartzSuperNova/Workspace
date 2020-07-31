@@ -71,7 +71,7 @@ public class BlockNoskiumOre extends ElementsTheFold.ModElement {
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
-			super(Material.ROCK);
+			super(Material.IRON);
 			setUnlocalizedName("noskiumore");
 			setSoundType(SoundType.STONE);
 			setHarvestLevel("pickaxe", 3);

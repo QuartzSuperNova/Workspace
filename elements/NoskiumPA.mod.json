@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "noskiumpicaxe",
+    "customModelName": "Normal",
+    "name": "Noskium PA",
+    "creativeTab": {
+      "value": "CUSTOM:TheFold"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 1.1,
+    "enchantability": 5,
+    "damageVsEntity": 5.0,
+    "usageCount": 2156,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:NoskiumGem"
+      }
+    ]
+  }
+}

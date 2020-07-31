@@ -10,9 +10,9 @@
       "value": "CUSTOM:FoldDurt"
     },
     "generateLakes": true,
-    "treeType": 1,
+    "treeType": 0,
     "vanillaTreeType": "Default",
-    "minHeight": 7,
+    "minHeight": 4,
     "spawnVines": false,
     "treeVines": {
       "value": "Blocks.AIR"
@@ -41,7 +41,7 @@
     },
     "treesPerChunk": 0,
     "grassPerChunk": 0,
-    "flowersPerChunk": 1,
+    "flowersPerChunk": 0,
     "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
     "sandPathcesPerChunk": 0,
