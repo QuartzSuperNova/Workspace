@@ -31,7 +31,7 @@ public class BiomeFoldlands extends ElementsTheFold.ModElement {
 	}
 	static class BiomeGenCustom extends Biome {
 		public BiomeGenCustom() {
-			super(new Biome.BiomeProperties("Foldlands").setRainfall(0.5F).setBaseHeight(0.1F).setHeightVariation(0.2F).setTemperature(0.5F));
+			super(new Biome.BiomeProperties("Foldlands").setRainfall(0.5F).setBaseHeight(0.1F).setHeightVariation(0.1F).setTemperature(0.5F));
 			setRegistryName("foldlands");
 			topBlock = BlockFoldGrass.block.getDefaultState();
 			fillerBlock = BlockFoldDurt.block.getDefaultState();

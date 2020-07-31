@@ -4,16 +4,20 @@
   "definition": {
     "structure": "tree1",
     "randomlyRotateStructure": true,
-    "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 999999,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 300000,
     "minCountPerChunk": 1,
-    "maxCountPerChunk": 4,
+    "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
     "spawnHeightOffset": 0,
     "spawnWorldTypes": [
       "CUSTOM:Fold"
     ],
-    "restrictionBlocks": [],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:FoldGrass"
+      }
+    ],
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Foldlands"

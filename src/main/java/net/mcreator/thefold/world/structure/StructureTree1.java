@@ -17,6 +17,7 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.thefold.world.WorldFold;
+import net.mcreator.thefold.block.BlockFoldGrass;
 import net.mcreator.thefold.ElementsTheFold;
 
 import java.util.Random;
@@ -37,8 +38,8 @@ public class StructureTree1 extends ElementsTheFold.ModElement {
 		}
 		if (!dimensionCriteria)
 			return;
-		if ((random.nextInt(1000000) + 1) <= 999999) {
-			int count = random.nextInt(4) + 1;
+		if ((random.nextInt(1000000) + 1) <= 300000) {
+			int count = random.nextInt(1) + 1;
 			for (int a = 0; a < count; a++) {
 				int i = i2 + random.nextInt(16) + 8;
 				int k = k2 + random.nextInt(16) + 8;
@@ -46,23 +47,28 @@ public class StructureTree1 extends ElementsTheFold.ModElement {
 				if (isNetherType) {
 					boolean notpassed = true;
 					while (height > 0) {
-						if (notpassed && (world.isAirBlock(new BlockPos(i, height, k)) || !world.getBlockState(new BlockPos(i, height, k)).getBlock()
-								.getMaterial(world.getBlockState(new BlockPos(i, height, k))).blocksMovement()))
+						if (notpassed && world.isAirBlock(new BlockPos(i, height, k)))
 							notpassed = false;
-						else if (!notpassed && !world.isAirBlock(new BlockPos(i, height, k)) && world.getBlockState(new BlockPos(i, height, k))
-								.getBlock().getMaterial(world.getBlockState(new BlockPos(i, height, k))).blocksMovement())
+						else if (!notpassed && !world.isAirBlock(new BlockPos(i, height, k)))
 							break;
 						height--;
 					}
 				} else {
 					while (height > 0) {
-						if (!world.isAirBlock(new BlockPos(i, height, k)) && world.getBlockState(new BlockPos(i, height, k)).getBlock()
-								.getMaterial(world.getBlockState(new BlockPos(i, height, k))).blocksMovement())
+						if (!world.isAirBlock(new BlockPos(i, height, k)))
 							break;
 						height--;
 					}
 				}
 				int j = height - 1;
+				IBlockState blockAt = world.getBlockState(new BlockPos(i, j + 1, k));
+				boolean blockCriteria = false;
+				IBlockState require;
+				require = BlockFoldGrass.block.getDefaultState();
+				if (blockAt.getBlock() == require.getBlock())
+					blockCriteria = true;
+				if (!blockCriteria)
+					continue;
 				boolean biomeCriteria = false;
 				Biome biome = world.getBiome(new BlockPos(i, j, k));
 				if (Biome.REGISTRY.getNameForObject(biome).equals(new ResourceLocation("thefold:foldlands")))
