@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "thefold:blocks/portaltextures",
-    "portal": "thefold:blocks/portaltextures"
+    "particle": "thefold:blocks/ortal",
+    "portal": "thefold:blocks/ortal"
   },
   "elements": [
     {
